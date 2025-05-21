@@ -1,0 +1,30 @@
+Napomena za pokretanje:
+
+Za rad skripte potrebno je da u fajlu `config.json` unesete svoj OMDb API ključ u sledećem formatu:
+
+{
+  "api_key": "OVDE_UNESITE_VAS_KLJUC"
+}
+
+Iz bezbednosnih razloga, originalni API ključ je uklonjen. Potrebno je da registrujete sopstveni na sajtu https://www.omdbapi.com/ i zamenite placeholder u fajlu `config.json`.
+
+.gitignore fajl je dodat jer planiram da projekat ubacim kasnije na GitHub — on sprečava slučajno deljenje osetljivih fajlova kao što su `config.json` i `filmovi.xml`.
+
+Svi fajlovi su originalni i generisani tokom zadatka. `filmovi.xml` predstavlja automatski eksportovane podatke nakon poziva OMDb API-ja.
+
+---
+
+Note for running the script:
+
+To run the script, you need to enter your OMDb API key in the `config.json` file in the following format:
+
+{
+  "api_key": "ENTER_YOUR_KEY_HERE"
+}
+
+For security reasons, the original API key has been removed. You need to register your own key at https://www.omdbapi.com/ and replace the placeholder in the `config.json` file.
+
+A `.gitignore` file has been added because I plan to upload the project to GitHub later — it prevents accidental sharing of sensitive files such as `config.json` and `filmovi.xml`.
+
+All files are original and generated during the assignment. `filmovi.xml` represents automatically exported data after calling the OMDb API.
+
